@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="9" tilewidth="96" tileheight="96">
+ <tileset firstgid="1" name="Ashen_Rock" tilewidth="96" tileheight="96">
+  <image source="Ashen_Rock.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="11" name="tb4" tilewidth="96" tileheight="96">
+  <image source="tb4.png" width="1154" height="858"/>
+  <tile id="31">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+  <tile id="58">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+  <tile id="59">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+  <tile id="65">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="env" width="16" height="9">
+  <data encoding="base64" compression="zlib">
+   eJytyzVuREEARMGf22tmZmZmZmZmXt//AK6RJpgDOCg9ddC5LMuKKKCQXNzFlFBKGeVUUElVbFBLHdXUJLueBhppopkWWmmLDTrpop2OZHfTQy999DPAIEOxwShjDDOS7HEmmGSKaWaYZS42WGSJeRaSvcwKq6yxzgabbMUGu+yxzU6y9zngkCOOOeGUs9jgkivOuUj2NTfccsc9DzzyFBu88sYzL8l+54NPvvjmhzy/sfl/+P8Bv6cjpA==
+  </data>
+ </layer>
+ <layer name="bg" width="16" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj8QAuJ7YpHnQES2xiITaBsFjSMC6Crw6YHZL8bDv0eaHwfLGpcGfD7YagBAEdRAtw=
+  </data>
+ </layer>
+ <objectgroup name="obj">
+  <object name="0" x="284" y="433"/>
+  <object name="1" x="910" y="438"/>
+  <object name="2" x="912" y="328"/>
+  <object name="3" x="1315" y="333"/>
+ </objectgroup>
+</map>

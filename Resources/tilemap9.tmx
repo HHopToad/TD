@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="9" tilewidth="96" tileheight="96">
+ <tileset firstgid="1" name="Ashen_Rock" tilewidth="96" tileheight="96">
+  <image source="Ashen_Rock.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="11" name="tb9" tilewidth="96" tileheight="96">
+  <image source="tb9.png" width="1152" height="866"/>
+  <tile id="0">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="env" width="16" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxdz8VOREEURdGe4xZo3N3d3Rp3d3eH72eRVCcvDNakUvckOx6LxeKkkEoa6WSQSRbZ5JBLHqWUUU5NkE9B2CqkiGJK/v2voDLy1hFUUR22aqmjngYaaaKZFlrD7Z+RoI32sNVJF9300Esf/QwwGLmPB0MMh61RxhhngkmmmGaG2dBQFumfY54ECyyyxDIrrLLGOhuRhmT/Jltss8Mue+xzwCFHHHMSaUj2n3LGORdccsU1N9xyxz0PkYZE8MgTz7zwyhvvfPDJF9/8hNu/hl9b4CEY
+  </data>
+ </layer>
+ <layer name="bg" width="16" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg8gBtKqwGxOpK4FhBrA7EO3V1EHuAmUw4mj0sNIb3U0E8qAACYLwEy
+  </data>
+ </layer>
+ <objectgroup name="obj">
+  <object name="0" x="341" y="793"/>
+  <object name="1" x="462" y="168"/>
+  <object name="2" x="1164" y="140"/>
+  <object name="3" x="1236" y="459"/>
+  <object name="4" x="994" y="471"/>
+  <object name="5" x="1004" y="791"/>
+  <object name="6" x="1249" y="791"/>
+ </objectgroup>
+</map>

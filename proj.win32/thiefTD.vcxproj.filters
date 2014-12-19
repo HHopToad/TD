@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Tower">
+      <UniqueIdentifier>{2cb675fb-5ab0-432f-972a-b5887579bcfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\UI">
+      <UniqueIdentifier>{1c5c1ca5-be03-416c-af28-c463e606dea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\enemy">
+      <UniqueIdentifier>{7669845f-2b07-4c4d-8f9c-600e0b613fb1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameManager.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ArrowTower.cpp">
+      <Filter>Classes\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AttackTower.cpp">
+      <Filter>Classes\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerBase.cpp">
+      <Filter>Classes\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerPanleLayer.cpp">
+      <Filter>Classes\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MultiDirTower.cpp">
+      <Filter>Classes\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelInfoScene.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelLayer.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelScene.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelSelectPage.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadingResScene.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadLevelInfo.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Thief.cpp">
+      <Filter>Classes\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EnemyBase.cpp">
+      <Filter>Classes\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GroupEnemy.cpp">
+      <Filter>Classes\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UIScene.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SuccessfulScene.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FailedScene.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TowerUpgradePanleLayer.cpp">
+      <Filter>Classes\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ArrowTower1.cpp">
+      <Filter>Classes\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ArrowTower2.cpp">
+      <Filter>Classes\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ArrowTower3.cpp">
+      <Filter>Classes\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AttackTower1.cpp">
+      <Filter>Classes\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AttackTower2.cpp">
+      <Filter>Classes\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AttackTower3.cpp">
+      <Filter>Classes\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MultiDirTower1.cpp">
+      <Filter>Classes\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MultiDirTower2.cpp">
+      <Filter>Classes\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MultiDirTower3.cpp">
+      <Filter>Classes\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelpScene.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SettingScene.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PassScene.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameManager.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ArrowTower.h">
+      <Filter>Classes\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AttackTower.h">
+      <Filter>Classes\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerBase.h">
+      <Filter>Classes\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerPanleLayer.h">
+      <Filter>Classes\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MultiDirTower.h">
+      <Filter>Classes\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelInfoScene.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelLayer.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelScene.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelSelectPage.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadingResScene.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadLevelInfo.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Thief.h">
+      <Filter>Classes\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EnemyBase.h">
+      <Filter>Classes\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GroupEnemy.h">
+      <Filter>Classes\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UIScene.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SuccessfulScene.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FailedScene.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TowerUpgradePanleLayer.h">
+      <Filter>Classes\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ArrowTower1.h">
+      <Filter>Classes\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ArrowTower2.h">
+      <Filter>Classes\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ArrowTower3.h">
+      <Filter>Classes\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AttackTower1.h">
+      <Filter>Classes\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AttackTower2.h">
+      <Filter>Classes\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AttackTower3.h">
+      <Filter>Classes\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MultiDirTower1.h">
+      <Filter>Classes\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MultiDirTower2.h">
+      <Filter>Classes\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MultiDirTower3.h">
+      <Filter>Classes\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelpScene.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SettingScene.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PassScene.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

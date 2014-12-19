@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>levelInfo</key>
+	<dict>
+		<key>money</key>
+		<integer>600</integer>
+		<key>currlevel</key>
+		<string>levelInfo_7.plist</string>
+		<key>nextlevel</key>
+		<string>levelInfo_8.plist</string>
+		<key>group</key>
+		<dict>
+			<key>1</key>
+			<dict>
+				<key>type1Num</key>
+				<integer>20</integer>
+				<key>type1Hp</key>
+				<integer>100</integer>
+				<key>type2Num</key>
+				<integer>20</integer>
+				<key>type2Hp</key>
+				<integer>80</integer>
+				<key>type3Num</key>
+				<integer>20</integer>
+				<key>type3Hp</key>
+				<integer>500</integer>
+			</dict>
+			
+		</dict>
+	</dict>
+	<key>resources</key>
+	<dict>
+		<key>map</key>
+		<string>tilemap7.tmx</string>
+		<key>image</key>
+		<string>playbg.png</string>
+	</dict>
+</dict>
+</plist>

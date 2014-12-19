@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="9" tilewidth="96" tileheight="96">
+ <tileset firstgid="1" name="Ashen_Rock" tilewidth="96" tileheight="96">
+  <image source="Ashen_Rock.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="11" name="tb12png" tilewidth="96" tileheight="96">
+  <image source="tb12png.png" width="1153" height="862"/>
+  <tile id="0">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="env" width="16" height="9">
+  <data encoding="base64" compression="zlib">
+   eJyNzcVOQ2EQgNG7L05xiltxL+5evIXiLoX3fwDOgiY35F+wOJlMMpMvEUVRGYnfWU4FlVRRTQ21JKmjPnb/d/73v4HG2F9pb6KZFlpJ0UY7HXTSRTc9sf/S3ksf/QyQZpAhhhlhNNAdY5wJJplimhlmyTDHPAuB7iJLLLPCKmuss8EmW2yzE+jussc+B2Q55IhjTjjljPNAN0eeCy4pcMU1N9xyxz0Pge4jTzzzwitvvPPBJ0W++I51fwAi4xr1
+  </data>
+ </layer>
+ <layer name="bg" width="16" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAO4CaAidFPjhy6Glz2EjKDGHlquBGXOmL0E+MOYs2gFgAAheMBHw==
+  </data>
+ </layer>
+ <objectgroup name="obj">
+  <object name="0" x="346" y="837"/>
+  <object name="1" x="379" y="202"/>
+  <object name="2" x="768" y="208"/>
+  <object name="3" x="1193" y="841"/>
+ </objectgroup>
+</map>
